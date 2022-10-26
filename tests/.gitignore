@@ -1,1 +1,8 @@
 __pycache__/
+dist/
+.nox/
+.coverage
+.cache
+coverage.xml
+.pytest_cache
+.venv/
