@@ -47,6 +47,7 @@ myst-parser = {version = ">=0.16.1"}
 nox = "^2022.8.7"
 nox-poetry = "^1.0.1"
 cleo = "^0.8.1"
+mutmut = "^2.4.1"
 
 [tool.poetry.scripts]
 mutants = "mutants.__main__:main"

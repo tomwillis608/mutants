@@ -8,3 +8,5 @@ coverage.xml
 .pytest_cache
 .venv/
 .mypy_cache/
+.mutmut-cache
+docs/_build/
