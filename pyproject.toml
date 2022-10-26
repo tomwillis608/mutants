@@ -53,11 +53,10 @@ mutants = "mutants.__main__:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
-tests = ["tests", "*/tests"]
 
 [tool.coverage.run]
 branch = true
-source = ["mutants", "tests"]
+source = ["mutants"]
 
 [tool.coverage.report]
 show_missing = true
