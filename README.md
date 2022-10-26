@@ -5,9 +5,10 @@
 [![Status](https://img.shields.io/pypi/status/mutants.svg)][status]
 [![Python Version](https://img.shields.io/pypi/pyversions/mutants)][python version]
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
---->
 
 [![Read the documentation at https://mutants.readthedocs.io/](https://img.shields.io/readthedocs/mutants/latest.svg?label=Read%20the%20Docs)][read the docs]
+--->
+
 [![Tests](https://github.com/tomwillis608/mutants/workflows/Tests/badge.svg)][tests]
 [![Codecov](https://codecov.io/gh/tomwillis608/mutants/branch/main/graph/badge.svg)][codecov]
 
@@ -38,7 +39,7 @@
 
 See [CONTRIBUTING](CONTRUBTING.md)
 
-<---
+<!---
 You can install _Mutants_ via [pip] from [PyPI]:
 
 ```console
