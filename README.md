@@ -1,6 +1,6 @@
 # Mutants
 
-<---
+<!---
 [![PyPI](https://img.shields.io/pypi/v/mutants.svg)][pypi_]
 [![Status](https://img.shields.io/pypi/status/mutants.svg)][status]
 [![Python Version](https://img.shields.io/pypi/pyversions/mutants)][python version]
@@ -14,7 +14,7 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
 
-<---
+<!---
 [pypi_]: https://pypi.org/project/mutants/
 [status]: https://pypi.org/project/mutants/
 [python version]: https://pypi.org/project/mutants
