@@ -66,20 +66,20 @@ $ poetry run mutants
 Run the full test suite:
 
 ```console
-$ nox
+$ poetry run nox
 ```
 
 List the available Nox sessions:
 
 ```console
-$ nox --list-sessions
+$ poetry run nox --list-sessions
 ```
 
 You can also run a specific Nox session.
 For example, invoke the unit test suite like this:
 
 ```console
-$ nox --session=tests
+$ poetry run nox --session=tests-3.10
 ```
 
 Unit tests are located in the _tests_ directory,
