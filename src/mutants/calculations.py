@@ -1,13 +1,16 @@
 """ Calculations to mutate. """
 
+METRIC_LOC = 10
+METRIC_MTTR = 21
+
 def calculate_metric(a: int = 1, b: int = 1) -> int:
     mod = 7
     c = (a + b) % mod
     return c
 
-def choose_metric(a: int = 1, b: int = 1) -> int:
+def choose_metric(a: int, b: int) -> int:
     if (a < b):
-        value = 10
+        value = METRIC_LOC
     else: 
-        value = 21
+        value = METRIC_MTTR
     return value
