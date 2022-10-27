@@ -1,6 +1,7 @@
 """ Calculations to mutate. """
 
-METRIC_LOC = 10
+""" These are indices from external dependencies. """
+METRIC_LOC = 10 
 METRIC_MTTR = 21
 
 def calculate_metric(a: int = 1, b: int = 1) -> int:

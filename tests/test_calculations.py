@@ -8,6 +8,11 @@ def test_calculate_metric_happy() -> None:
     result = calculate_metric()
     assert result is not None
 
+def test_calculate_metric_happy_value() -> None:
+    """Test calculate_metric happy path."""
+    result = calculate_metric()
+    assert result == 2
+
 def test_calculate_metric_8_8() -> None:
     """Test calculate_metric path."""
     result = calculate_metric(88, 88)
@@ -22,9 +27,15 @@ def test_chose_metric_mttr() -> None:
 def test_chose_metric_loc() -> None:
     """Test choose_metric happy path."""
     result = choose_metric(1,2)
-    assert result != METRIC_MTTR
+    assert result == METRIC_LOC
 
+TEST_METRIC_LOC = 10
+def test_metric_loc() -> None:
+    assert METRIC_LOC == TEST_METRIC_LOC
 
+TEST_METRIC_MTTR = 21
+def test_metric_mttr() -> None:
+    assert METRIC_MTTR == TEST_METRIC_MTTR
 
 
 
