@@ -46,7 +46,7 @@ xdoctest = {extras = ["colors"], version = ">=0.15.10"}
 myst-parser = {version = ">=0.16.1"}
 nox = "^2022.8.7"
 nox-poetry = "^1.0.1"
-cleo = "^0.8.1"
+cleo = "^2.0.0"
 
 [tool.poetry.scripts]
 mutants = "mutants.__main__:main"
